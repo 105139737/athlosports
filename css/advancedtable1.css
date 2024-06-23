@@ -1,0 +1,66 @@
+
+.advancedtable{
+    border-collapse: collapse;
+}
+.advancedtable tbody tr{
+	border:1px solid #37880a;
+	padding: 0px 0px;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:14px;
+	
+	color: #000000;
+}
+
+
+.advancedtable thead tr{
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:18px;
+	font-style:italic;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-variant:normal;
+	font-weight:bold;
+	background: url(images/txtbg.png);
+	border-top:1px solid #BBB;
+	border-bottom:1px solid #BBB;
+	padding: 2px 5px;
+	color: #FFF;
+
+}
+
+
+
+tfoot tr{
+	background-color:#7d0f01;
+
+	color:#FFFFFF;
+	font-size:11px;
+	padding:0.3em;
+	background: url(images/blank.png);
+}
+
+.odd{
+background-color: #d7ebf9;
+    color: #e43834;
+}
+.even{
+background-color: #62bbe8;
+    color:#e43834;
+
+}
+.odd:hover {
+background-color: #c0e9b7;
+color:#e43834;
+}
+.even:hover {
+background-color: #c0e9b7;
+color:#e43834;
+}
+.form-control:focus {
+  border-color: #13895F;
+  outline: 0;
+  box-shadow: inset 0 4px 5px rgba(19,137,95,.075),0 0 8px rgba(19,137,95,.6);
+}
+input:focus{
+	background-color:#dee9e5;
+}

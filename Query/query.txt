@@ -1,0 +1,35 @@
+TRUNCATE  `main_billdtls` ;
+
+TRUNCATE  `main_billdtls_log` ;
+
+TRUNCATE  `main_billdtls_ret` ;
+
+TRUNCATE  `main_billing` ;
+
+TRUNCATE  `main_billing_log` ;
+
+TRUNCATE  `main_billing_ret` ;
+
+TRUNCATE  `main_drcr` ;
+
+TRUNCATE  `main_ptemp` ;
+
+TRUNCATE  `main_purchase` ;
+
+TRUNCATE  `main_purchasedet` ;
+
+TRUNCATE  `main_purchasedet_del` ;
+
+TRUNCATE  `main_purchasedet_edt` ;
+
+TRUNCATE  `main_purchasedet_edt_log` ;
+
+TRUNCATE  `main_purchasedet_ret` ;
+
+TRUNCATE  `main_purchase_del` ;
+
+TRUNCATE  `main_purchase_edt_log` ;
+
+TRUNCATE  `main_purchase_ret` ;
+
+TRUNCATE  `main_stock` ;
