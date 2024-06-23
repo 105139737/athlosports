@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ripaathlo/public_html/athlosports/
+    - export DEPLOYPATH=/home/ripaathlo/public_html/athlosports
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
    
