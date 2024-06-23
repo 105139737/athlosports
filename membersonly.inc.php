@@ -1,5 +1,4 @@
 <?PHP
-echo session_save_path();
 // get the cookievars if they exist
 $rememberCookieUname = $_COOKIE["rememberCookieUname"];
 $rememberCookiePassword = $_COOKIE["rememberCookiePassword"];
