@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ripaathlo/public_html/
+    - export DEPLOYPATH=/home/ripaathlo/public_html/athlosports/
     - /bin/cp * $DEPLOYPATH
    
