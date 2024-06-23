@@ -9,7 +9,7 @@ $rememberCookiePassword = $_COOKIE["rememberCookiePassword"];
 include("config.php");
 // tell we want to work with sessions
 session_start();
-$last_login=$_SESSION[lastlog];
+//$last_login=$_SESSION[lastlog];
 // the $HTTP_SESSION_VARS[id] in this query indicates that we want to retrieve the username from the session.
 $query = "Select * from ".$DBprefix."signup where username='".$_SESSION[id]."' And password = '".$_SESSION[pass]."'";
 $result = mysqli_query($conn,$query); 
