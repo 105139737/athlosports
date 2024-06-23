@@ -6,10 +6,10 @@ $username1 = $_POST["username"];
 
 $password1 = $_POST["password"];
 
-//$rememberMe = $_POST["rememberMe"];
+$rememberMe = $_POST["rememberMe"];
 $SIP=$_SERVER [ 'REMOTE_ADDR' ];
 $ctm=time()+41400;
-/*
+
 // make sure that rememberMe has a value
 
 if ($rememberMe == "rememberMe"){
@@ -20,7 +20,7 @@ if ($rememberMe == "rememberMe"){
 
 	$rememberMe = "0";
 
-}*/
+}
 
 
 
