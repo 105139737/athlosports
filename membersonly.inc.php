@@ -1,7 +1,7 @@
 <?PHP
 // get the cookievars if they exist
-//$rememberCookieUname = $_COOKIE["rememberCookieUname"];
-//$rememberCookiePassword = $_COOKIE["rememberCookiePassword"];
+$rememberCookieUname = $_COOKIE["rememberCookieUname"];
+$rememberCookiePassword = $_COOKIE["rememberCookiePassword"];
 
 // the security header which should be included in al memberpaga's
 // first we include the configuration file which contains the database data
