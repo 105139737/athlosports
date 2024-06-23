@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ripaathlo/public_html/
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
    
